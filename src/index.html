@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="index.css">
+    <title>Dev Career Ambition Survey</title>
+</head>
+<body>
+
+<h1 id="title">
+    Development Career Ambition Survey
+</h1>
+
+<h3 id="description">
+    Please fill in the following information regarding which type of development career you are
+    hoping to achieve at the end of your studying.
+</h3>
+
+<form id="survey-form">
+    <fieldset id="personal-info-section">
+        <label for="name" id="name-label">Name:</label>
+        <input id="name" type="text" placeholder="Enter your name" required>
+        <br>
+
+        <label for="email" id="email-label">Email:</label>
+        <input id="email" type="email" placeholder="Enter your email" required>
+        <br>
+        <label for="number" id="number-label">Years of experience:</label>
+        <input id="number" type="number" min="0" max="30" required>
+    </fieldset>
+    <fieldset id="career-choice-section">
+        <label for="dropdown">Desired Development field:</label>
+        <select id="dropdown">
+            <option value="frontEnd">Front-end Web Dev</option>
+            <option value="backEnd">Back-end Web Dev</option>
+            <option value="fullStack">Full-stack Web Dev</option>
+            <option value="androidDev">Android Dev</option>
+            <option value="iosDev">IOS Dev</option>
+            <option value="databaseDev">Database Dev</option>
+            <option value="networkDev">Network Dev</option>
+            <option value="dataScience">Data Science</option>
+            <option value="aiMachineLearning">AI/Machine Learning</option>
+        </select>
+    </fieldset>
+
+    <fieldset id="education-section">
+        <label>How did you learn to code?:<br>(select one or more)</label>
+        <br>
+
+        <input id="university" type="checkbox" value="university">
+        <label for="university">University</label>
+        <br>
+        <input id="college" type="checkbox" value="college">
+        <label for="college">College</label>
+        <br>
+        <input id="secondary-school" type="checkbox" value="secondary">
+        <label for="secondary-school">Secondary School</label>
+        <br>
+        <input id="bootcamp" type="checkbox" value="bootcamp">
+        <label for="bootcamp">Bootcamp</label>
+        <br>
+        <input id="self-taught" type="checkbox" value="self-taught">
+        <label for="self-taught">Self-Taught</label>
+
+    </fieldset>
+    <fieldset id="employment-type-section">
+
+        <label>What is your desired type of employment?:</label>
+        <br>
+        <input id="fullTime" type="radio" value="fullTime" name="employment-type">
+        <label for="fullTime">Full Time</label>
+        <br>
+        <input id="partTime" type="radio" value="partTime" name="employment-type">
+        <label for="partTime">Part Time</label>
+        <br>
+        <input id="freelance" type="radio" value="freelance" name="employment-type">
+        <label for="freelance">Freelance</label>
+        <br>
+        <input id="contract" type="radio" value="contract" name="employment-type">
+        <label for="contract">Contract</label>
+
+    </fieldset>
+    <fieldset id="personal-statement-section">
+
+        <label for="textarea">Why do you want to work in your desired field?: (Max 300 Characters)</label>
+        <br>
+        <textarea id="textarea" maxlength="200" required></textarea>
+
+    </fieldset>
+    <button id="submit-button" type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>

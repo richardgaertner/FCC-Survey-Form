@@ -1,0 +1,101 @@
+#title {
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 30pt;
+}
+
+body {
+    background-color: cadetblue;
+}
+
+#description {
+    margin-top: 2%;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    width: 60%;
+}
+
+#survey-form {
+    border-color: lightcoral;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    width: 60%;
+}
+
+input {
+    font-family: sans-serif;
+    margin-top: 1%;
+}
+
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+fieldset {
+    border-radius: 5px;
+    background-color: white;
+}
+
+#dropdown {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 1%;
+    border: 2px solid cadetblue;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid cadetblue;
+    margin-top: 1%;
+    border-radius: 5px;
+    resize: none;
+    font-family: sans-serif;
+}
+
+#submit-button:hover {
+    cursor: pointer;
+}
+
+#submit-button {
+    background-color: lightcoral;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 16px 32px;
+    text-decoration: none;
+    margin: 4px 2px;
+    width: 100%;
+}
